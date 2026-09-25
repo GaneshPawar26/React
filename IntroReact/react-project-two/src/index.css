@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
@@ -108,4 +108,23 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+} */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 'Times New Roman',Times,serif;
+  background-color: rgb(103, 102, 135);
+  color:antiquewhite;
+  font-size: 2rem;
+
+}
+
+body{
+  height:100vh;
+  display:flex;
+  justify-content: center; 
+  align-items: center;
 }
